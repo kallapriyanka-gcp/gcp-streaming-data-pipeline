@@ -1,0 +1,6 @@
+order_id,customer,product,quantity,amount,order_date
+1001,Priyanka,Laptop,1,50000,2026-09-18
+1002,Ravi,Mouse,2,1500,2026-09-18
+1003,Sita,Keyboard,1,2500,2026-09-18
+1004,Arun,Monitor,1,12000,2026-09-18
+1005,Meena,Headphones,2,4000,2026-09-18
