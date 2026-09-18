@@ -35,3 +35,17 @@ Pub/Sub Topic
 Subscription
 ↓
 Subscriber / Data Processing
+
+
+## Hands-on Message Testing
+
+Published a test JSON message to the `sales-data-topic` topic.
+
+### Test Message
+
+```json
+{
+  "order_id": 1001,
+  "customer": "Priyanka",
+  "amount": 500
+}
