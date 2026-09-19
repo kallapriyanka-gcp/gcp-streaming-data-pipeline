@@ -49,3 +49,17 @@ Published a test JSON message to the `sales-data-topic` topic.
   "customer": "Priyanka",
   "amount": 500
 }
+
+
+## GCS File Event Simulation
+
+For practice, published a message representing a new file event in GCS.
+
+### Test Event
+
+```json
+{
+  "event": "new_file",
+  "file_name": "sales.csv",
+  "path": "raw/sales.csv"
+}
