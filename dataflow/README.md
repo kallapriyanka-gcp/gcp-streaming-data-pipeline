@@ -16,3 +16,31 @@ Apache Beam
 Data processing pipeline
     ↓
 Google Cloud Dataflow
+
+
+# Dataflow & Apache Beam
+
+## Overview
+
+Google Cloud Dataflow is a managed service used to run data processing pipelines.
+
+Apache Beam is the programming framework used to build the pipeline.
+
+## Apache Beam Hands-on
+
+The `beam_basics.py` file demonstrates basic Apache Beam transformations using the `sales.csv` file.
+
+### Pipeline flow
+
+```text
+sales.csv
+    ↓
+ReadFromText
+    ↓
+Parse CSV rows
+    ↓
+Map transformation
+    ↓
+ParDo transformation
+    ↓
+Output
